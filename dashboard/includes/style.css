@@ -1,0 +1,30 @@
+
+
+
+form{
+  width: 80%;
+  margin: 120px auto;
+  padding: 25px;
+  border: 2px solid black;
+}
+
+input{
+  width:90%;
+  border:1.5px solid black;
+  display: block;
+  padding: 7px 14px;
+}
+
+
+.btn{
+  padding: 12px;
+  border: none;
+  border-radius: 9px;
+  width: 8rem;
+
+}
+
+.btn:hover{
+  background-color: rgb(19, 80, 85);
+  color: white;
+}

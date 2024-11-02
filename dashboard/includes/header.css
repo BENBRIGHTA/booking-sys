@@ -1,0 +1,54 @@
+
+* { 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+/*........NAVIGATION BAR.........*/
+
+nav{
+  margin-top: 10px;
+  /*background-color: #0B5345;*/
+  background-color: #00261f;
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+}
+
+.nav__container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__menu{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav__menu a{
+  font-size: 0.9rem;
+  color:#FFC300 ;
+ font-size: 1.2rem;
+}
+
+.nav__menu button{
+  background-color: #5DADE2;
+  border-radius: 5px;
+  height:35px;
+  width: 140px;
+}
+
+.nav__menu a:hover{
+ color:#5DADE2  ;
+ font-size: 1.6rem;
+}
+ 
+/*........END OF NAVIGATION BAR.........*/
