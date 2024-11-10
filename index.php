@@ -2,10 +2,7 @@
 
 require_once 'vendor/autoload.php';
 
-use App\Models\Booking;
+use App\Models\User;
 
-$user = new Booking();
-//$user->greet();
-
-
-
+$user = new User();
+$user->greet();

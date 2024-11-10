@@ -1,9 +1,7 @@
 <?php
 namespace App\Models;
 
-class Databse 
+class Database
 {
-  
+
 }
-
-
